@@ -6,7 +6,9 @@ def draw(G, title, large):
     '''
     Metoda graficki prikazuje zadati graf sa zadatim naslovom,
     i u zavisnosti od treceg parametra bira 'layout' za prikaz
-    (vece grafove je lakse prikazati kao 'circular' graf)
+    (vece grafove je lakse prikazati kao 'circular' graf).
+    Takodje vodi racuna o afinitetu grana, pa ih stampa kao pune linije
+    ili kao isprekidane u zavisnoti od vrednosti tog atributa
     :param G: - graf za prikazivanje
     :param title: - naslov grafa
     :param large: - 'boolean' promenljiva koja bira 'layout'
