@@ -35,7 +35,7 @@ Loading done!
 
 Graf je ucitan i sadrzi 3783 cvorova i 14124 linkova
 Broj povezanih komponenti u grafu: 5
-Graf cini 5 komponenti, pa je dijametar neizracunljiv (gigantsku komponentu cini 99.78852762357917% ukupnog broja cvorova)
+Graf cini 5 komponenti, pa je dijametar neizracunljiv (gigantsku komponentu cini 99.79% ukupnog broja cvorova)
 
 Provera klasterabilnosti...
 Graf je preveliki da bi se graficki prikazao
@@ -46,7 +46,7 @@ Pravljene klastera...
 Detektovanje koalicija...
 ...detektovane
 
-U grafu se nalazi 3 kolalicija i 2 antikoalicija
+U grafu se nalazi 121 kolalicija i 1 antikoalicija
 
 Analiziranje sličnosti i razlike u strukturi koalicija i anti-koalicija...
 
@@ -56,23 +56,35 @@ Koalicije imaju manji dijametar
 Cvorovi anti-koalicija su vise distancirani u odnosu na cvorove koalicija
 
 Prikazati sadrzaj klastera (Y/N) -> y
-Klasteri koalicije (br. 3):
-['6336', '3228']
+Klasteri koalicije (br. 121):
+['838']
+['7534']
+['7474']
+['7454']
+['7367']
 ['3271', '1870']
-['3388', '1389']
-Klasteri antikoalicije (br. 2):
-['7188', '1', '160', '1028', '309', '11', ......... '5029']
-['5837', '7465']
+['7468']
+........
+['7547']
+['1584', '6792', '527']
+['7480']
+........
+['7451', '7452']
+['7496']
+['7546']
+Klasteri antikoalicije (br. 1):
+['7188', '1', '160', '1028', '309', '11', ........ '3296']
 
 Pravljenje mreze klastera...
 Analiziranje mreze klastera...
 
-Linkova koji narusavaju klasterabilnost (balansiranost) ima: 1400 (njih treba ukloniti da bi mreza bila klasterabilna)
+Linkova koji narusavaju klasterabilnost (balansiranost) ima: 1213 (njih treba ukloniti da bi mreza bila klasterabilna)
 Prikazati ih (Y/N) -> y
-('1', '7348') ('1', '7425') ('1', '7557') ......... ('5837', '7465')
+('1', '7589') ('309', '8') ('11', '2') ........ ('7561', '2048')
 
 Sacuvati graf u 'graphml' formatu (Y/N) -> n
 
 Process finished with exit code 0
+
 
 ```

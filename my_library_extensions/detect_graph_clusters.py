@@ -100,9 +100,10 @@ def detect_clusters_big_v4(g):
     for e in g.edges(data=True):
         sys.stdout.write(f"{i}/{l}")
         sys.stdout.flush()
-        row.append(dict(g.nodes(data=True)).get(e[0])['serial_num'])
-        col.append(dict(g.nodes(data=True)).get(e[1])['serial_num'])
-        data.append(1)
+        if e[2]['affinity'] is "+":
+            row.append(dict(g.nodes(data=True)).get(e[0])['serial_num'])
+            col.append(dict(g.nodes(data=True)).get(e[1])['serial_num'])
+            data.append(1)
         i += 1
         sys.stdout.write("\r")
 

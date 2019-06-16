@@ -32,7 +32,7 @@ def main():
         else:
             comps_tmp = nx.connected_component_subgraphs(G)
             print(f"Graf cini {len(list(nx.connected_component_subgraphs(G)))} komponenti, pa je dijametar neizracunljiv (gigantsku komponentu cini "
-                  f"{len(sorted(comps_tmp, key=len, reverse=True)[0].nodes)*100.0/len(G.nodes)}% ukupnog broja cvorova)")
+                  f"{round(len(sorted(comps_tmp, key=len, reverse=True)[0].nodes)*100.0/len(G.nodes), 2)}% ukupnog broja cvorova)")
 
     print("\nProvera klasterabilnosti...")
     if len(G.nodes) < 500:
